@@ -1,0 +1,115 @@
+*{padding:0;
+margin: 0;}
+
+@font-face {
+  font-family: 'Ringbearer';
+  src: url(fontes/ringbearer/RINGM___.TTF) format('truetype');}
+
+@font-face {
+  font-family: 'Ring';
+  src: url() format('truetype');}
+
+header{
+    background-image: url(imagens/mountains2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 4em;}
+
+
+    header h1{
+     font-family: 'Ringbearer', serif;
+     font-size: 2.4em;
+    text-shadow: 2px 2px 0px rgba(1, 0, 0, 0.975);}
+
+    header p{
+    padding-bottom: 4em;
+    color: rgb(197, 180, 86);
+    font-family:'Times New Roman', Times, serif ;
+    font-size:1.1em;
+    text-shadow: 2px 2px 0px rgba(1, 0, 0, 0.975);}
+
+     p {
+    word-wrap: break-word;
+      font-size: 18px;}
+
+    .play{
+  border: 4px solid #6b4226;
+  border-radius: 29px;          
+  filter: sepia(100%) ;
+  box-shadow: 0 0 15px #000000;}
+
+  a{
+    text-decoration:solid;
+    color: #d4af37;}
+
+ a:hover {
+    text-decoration:underline;}
+    
+
+    section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        padding-left: 3em;
+        line-height: 2em;
+         font-family: 'Ringbearer', serif;}
+
+    section.normal{
+    background-color: rgb(155, 142, 127);
+    background-image: url(imagens/fundonormal.jpg);
+    background-position:right;
+    box-shadow:inset 0px 6px 13px 0px black;}
+
+    section.normal p{
+    text-shadow: 2px 2px 1px rgba(225, 227, 185, 0.975);}
+
+    section.imagem{
+        background-color: darkgray;
+        color: aliceblue;
+        background-size: cover;
+        background-attachment: fixed;}
+
+    section.imagem > p{
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.536);
+        padding: 5px;
+        text-shadow: 2px 2px 1px rgba(1, 0, 0, 0.975);}
+
+    section#imagem1{
+        background-image: url(imagens/mountains.jpg);
+        background-position: center;
+        box-shadow:inset 0px 6px 13px 0px black;}    
+
+    section#imagem2{
+        background-image: url(imagens/gif.gif);
+        background-position:bottom;
+        box-shadow:inset 0px 6px 13px 0px black;}
+        
+
+    footer{
+        background-image: url(imagens/mountains2.jpg);
+        background-position:center bottom;
+        color: aliceblue;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        padding: 2vh;}
+
+     img{
+        width:25px;
+        height:25px; 
+        vertical-align:middle;}
+
+    @media (max-width: 600px) {
+     header h1 { font-size: 1.8em; }}
+
+    @media (max-width: 600px) {
+      p, header p {font-size: 14px;}}
+
+  
+
+  
+
+  
+
