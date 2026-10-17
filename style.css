@@ -41,11 +41,12 @@ header{
   box-shadow: 0 0 15px #000000;}
 
   a{
-    text-decoration:solid;
+    text-decoration:underline;
     color: #d4af37;}
 
  a:hover {
-    text-decoration:underline;}
+    text-decoration:underline;
+  color: gold;}
     
 
     section{
