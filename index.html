@@ -102,7 +102,15 @@
 
     <footer>
 <p>@2026 site criado por: <a href="https://www.instagram.com/janaylson_fer?utm_source=qr&stkn=OGZhZHZuNGxsaTJv" target="_blank"><img src="imagens/instagram.png" alt="instagram"></a></p>
-    </footer>
+    <p>visitantes: <span id="contador"></span></p>
+
+  <script>
+    let contador = localStorage.getItem("visitas") || 0;
+    contador++;
+    localStorage.setItem("visitas", contador);
+    document.getElementById("contador").textContent = contador;
+  </script>
+  </footer>
     
 </body>
 </html>
