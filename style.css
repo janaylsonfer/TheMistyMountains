@@ -102,7 +102,6 @@ header{
         height:25px; 
         vertical-align:middle;}
 
-     span{color: #d4af37;}   
 
     @media (max-width: 600px) {
      header h1 { font-size: 1.8em; }}
